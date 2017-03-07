@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="back">
+            <div id="wrapper">
+                <asp:ImageButton ID="Image1" ImageUrl="~/Images/banner.jpg" runat="server" Width="100%" OnClick="Image1_Click" />
+
+                <div id="navigation">
+                    <ul id="nav">
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="~/Default.aspx">ÜRÜNLER</asp:HyperLink></li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="~/Sepet.aspx">SEPET</asp:HyperLink></li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="~/DatabaseManager.aspx">MANAGEMENT</asp:HyperLink></li>
+                        <li>
+                            <asp:DropDownList ID="themes" runat="server" AutoPostBack="true" OnSelectedIndexChanged="themes_SelectedIndexChanged">
+                                <asp:ListItem>Normal</asp:ListItem>
+                                <asp:ListItem>Dark</asp:ListItem>
+                            </asp:DropDownList>
+                        </li>
+                    </ul>
+                </div>
+                <div id="content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

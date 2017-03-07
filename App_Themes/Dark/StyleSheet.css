@@ -1,0 +1,106 @@
+﻿html{
+    background-image:url(/Images/tile.jpg);
+    background-repeat:repeat;
+}
+body
+{
+    color: #000;
+    font-family:Verdana;
+    font-size: 16px;
+    padding-bottom:20px;
+}
+#wrapper
+{
+    width: 800px;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: darkgray;
+}
+.filters{
+    border:2px double #000;
+}
+
+#navigation
+{
+    height: 45px;
+    background: linear-gradient(to top, #111133, #a9a9a9);
+}
+
+#nav
+{
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+#nav ul {
+    display: none;
+    list-style: none;
+}
+
+#nav li {
+    float: left;
+    display: block;
+    margin-top: 15px;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+}
+
+#nav  a:link {
+    text-decoration: none;
+    color: #ddddff;
+    display: block;
+}
+
+#nav a:visited {
+    text-decoration: none;
+    color: #ddddff;
+    display: block;
+}
+
+#nav a:hover {
+    text-decoration: none;
+    color: #2222ff;
+    display: block;
+    background-color: #ddddff;
+}
+
+#nav a:active {
+    text-decoration: none;
+    color: #ddddff;
+    display: block;
+}
+#content
+{
+    padding: 20px;
+    min-height: 400px;
+}
+.tableText{
+    text-align:center;
+}
+.aramaButonu{
+	border-radius: 0.5em;
+	text-decoration: none;
+	color: #111133;
+	padding: 1em 3em; 
+	background-color: #d2d2d2;
+	text-transform: uppercase;
+	font-weight: bold;	
+    position:absolute; 
+    margin-left:-150px;
+    left:50%;
+    width:300px;
+    height:80px;
+}
+
+.aramaButonu:hover {
+	background-color: #0a0a0a;
+	border: 0.15em #111133 solid;
+	color: #d3d3d3;	
+}
+
+.aramaButonu:active {
+	background-color: #0a0a0a;
+	border: 0.15em #111133 solid;	
+	color: #d3d3d3;	
+}

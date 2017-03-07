@@ -1,0 +1,110 @@
+﻿html{
+    background-image:url(/Images/tile_2.jpg);
+    background-repeat:repeat;
+}
+body
+{
+    color: #000;
+    font-family:Verdana;
+    font-size: 16px;
+    padding-bottom:20px;
+}
+#wrapper
+{
+    width: 800px;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+#navigation
+{
+    height: 45px;
+    background: linear-gradient(to top, #329bd8, #ffffff);
+}
+.filters{
+    border:2px double #329bd8;
+}
+.text{
+     color: #000;
+}
+#nav
+{
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+#nav ul {
+    display: none;
+    list-style: none;
+}
+
+#nav li {
+    float: left;
+    display: block;
+    margin-top: 15px;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+}
+
+
+#nav  a:link {
+    text-decoration: none;
+    color: #2222ff;
+    display: block;
+}
+
+#nav a:visited {
+    text-decoration: none;
+    color: #2222ff;
+    display: block;
+}
+
+#nav a:hover {
+    text-decoration: none;
+    color: #ddddff;
+    display: block;
+    background-color: #2222ff;
+}
+
+#nav a:active {
+    text-decoration: none;
+    color: #2222ff;
+    display: block;
+}
+
+#content
+{
+    padding: 20px;
+    min-height: 400px;
+}
+.tableText{
+    text-align:center;
+}
+.aramaButonu{
+	border-radius: 0.5em;
+	text-decoration: none;
+	color: white;
+	padding: 1em 3em; 
+	background-color: #329bd8;
+	text-transform: uppercase;
+	font-weight: bold;	
+    position:absolute; 
+    margin-left:-150px;
+    left:50%;
+    width:300px;
+    height:80px;
+}
+
+.aramaButonu:hover {
+	background-color: transparent;
+	border: 0.15em #329bd8 solid;
+	color: #329bd8;	
+}
+
+.aramaButonu:active {
+	background-color: transparent;  
+	border: 0.15em #5e8ca5 solid;	
+	color: #5e8ca5;	
+}
